@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  color: #369;
+  padding: 0;
+  margin: 0;
+}
+body header {
+  background-color: #444;
+  padding: 20px;
+  text-align: center;
+}
+body header .bigHeader {
+  font-size: 50px;
+  color: rgb(255, 102, 0);
+  margin: 0;
+  font-weight: bold;
+}
+body header p {
+  color: grey;
+}
+body main {
+  width: 1200px;
+  margin: 20px auto;
+}
+body main h1 {
+  color: #c33;
+}
+body main article {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+body main article h2 {
+  color: #a32929;
+}
+body main article section {
+  padding: 10px;
+  border: 1px solid #7a1f1f;
+}
+body main article section h3 {
+  color: #7a1f1f;
+}
+body main .flex, body main .flex-row, body main .flex-row-carre5, body main .flex-row-carre3, body main .flex-row-carre2 {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+body main .flex section, body main .flex-row section, body main .flex-row-carre5 section, body main .flex-row-carre3 section, body main .flex-row-carre2 section {
+  padding: 10px 20px;
+  background-color: white;
+}
+body main .flex-row, body main .flex-row-carre5, body main .flex-row-carre3, body main .flex-row-carre2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body main .flex-row-carre2 section {
+  width: 49%;
+}
+body main .flex-row-carre3 section {
+  width: 32%;
+}
+body main .flex-row-carre5 section {
+  width: 15%;
+}
+body footer {
+  background-color: #444;
+  padding: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
+body footer img {
+  width: 100px;
+}
+body footer p {
+  color: white;
+}
+body footer p a {
+  color: rgb(255, 102, 0);
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=theme.css.map */
